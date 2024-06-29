@@ -1,0 +1,52 @@
+body{
+
+    background: linear-gradient(to right, #ff08a932, #ff00f216);
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ea02ff25;
+}
+
+.book-card h3 {
+    margin-top: 0;
+   color: rgb(70, 0, 56);
+}
+
+.book-card p {
+    margin: 5px 0;
+    color: #6b3f68;
+}
+
+.edit-button, .delete-button {
+    padding: 10px 20px;
+    border: none;
+    color: beige;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.edit-button {
+    background-color: #ff00fb;
+ 
+    
+}
+
+.edit-button:hover {
+    background-color: #ff00fb73;
+}
+
+.delete-button {
+    background-color: #62285e43;
+    
+}
+
+.delete-button:hover {
+    background-color: #62285e;
+}
